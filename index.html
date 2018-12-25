@@ -24,8 +24,18 @@
       ページを開いたらデータが保存されるよ！
     </h1>
   </body>
-  <form action="mail.php" method="post">
+  <form>
   <p><label>入力：<input type="text" name="name" size="40"></label></p>
   <p><input type="submit" value="送信"><input type="reset" value="リセット"></p>
+    <p>フォームで入力した値が出力できない(>~<)</p>
+     <script type="text/javascript">
+      function handan(type){
+        if(type == "submit"){
+           testClass.set("message", "Hello, NCMB!");
+        } else {
+           
+        }
+      }
+    </script>
 </form>
 </html>
